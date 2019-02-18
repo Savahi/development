@@ -1,0 +1,3 @@
+﻿  tosftp.cpp
+e:\development\ftp\tosftp\tosftp.cpp(41): warning C4101: 'size': unreferenced local variable
+  tosftp.vcxproj -> E:\development\ftp\Debug\tosftp.exe

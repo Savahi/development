@@ -1,0 +1,15 @@
+﻿  sftp-demo-desktop.c
+e:\development\sftp\sftp-demo-desktop\sftp-demo-desktop.c(23): warning C4013: 'open' undefined; assuming extern returning int
+e:\development\sftp\sftp-demo-desktop\sftp-demo-desktop.c(30): warning C4013: 'write' undefined; assuming extern returning int
+e:\development\sftp\sftp-demo-desktop\sftp-demo-desktop.c(59): warning C4013: 'close' undefined; assuming extern returning int
+  sftp.c
+e:\development\sftp\sftp-demo-desktop\stdafx.h(4): warning C4005: 'LIBSSH_STATIC': macro redefinition
+  e:\development\sftp\sftp-demo-desktop\stdafx.h(4): note: command-line arguments:  see previous definition of 'LIBSSH_STATIC'
+e:\development\sftp\sftp-demo-desktop\sftp.c(60): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+e:\development\sftp\sftp-demo-desktop\sftp.c(99): warning C4013: 'open' undefined; assuming extern returning int
+e:\development\sftp\sftp-demo-desktop\sftp.c(106): warning C4013: 'read' undefined; assuming extern returning int
+e:\development\sftp\sftp-demo-desktop\sftp.c(123): warning C4013: 'close' undefined; assuming extern returning int
+e:\development\sftp\sftp-demo-desktop\sftp.c(168): warning C4013: 'write' undefined; assuming extern returning int
+e:\development\sftp\sftp-demo-desktop\sftp.c(269): warning C4090: '=': different 'const' qualifiers
+  Generating Code...
+  sftp-demo-desktop.vcxproj -> E:\development\sftp\Debug\sftp-demo-desktop.exe

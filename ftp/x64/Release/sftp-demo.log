@@ -1,0 +1,12 @@
+﻿  sftp-demo.c
+  sftp.c
+  Generating Code...
+sftp.obj : error LNK2019: unresolved external symbol __imp_curl_global_init referenced in function sftpInit
+sftp.obj : error LNK2019: unresolved external symbol __imp_curl_global_cleanup referenced in function sftpClose
+sftp.obj : error LNK2019: unresolved external symbol __imp_curl_easy_strerror referenced in function sftpGetLastError
+sftp.obj : error LNK2019: unresolved external symbol __imp_curl_easy_init referenced in function getRemoteFileSize
+sftp.obj : error LNK2019: unresolved external symbol __imp_curl_easy_setopt referenced in function getRemoteFileSize
+sftp.obj : error LNK2019: unresolved external symbol __imp_curl_easy_perform referenced in function getRemoteFileSize
+sftp.obj : error LNK2019: unresolved external symbol __imp_curl_easy_cleanup referenced in function getRemoteFileSize
+sftp.obj : error LNK2019: unresolved external symbol __imp_curl_easy_getinfo referenced in function getRemoteFileSize
+E:\Sava\sftp\x64\Release\sftp-demo.exe : fatal error LNK1120: 8 unresolved externals
