@@ -59,7 +59,8 @@ static size_t readfunc(void *ptr, size_t size, size_t nmemb, void *stream)
 static int createRemotePath(char *fileName, char *directory,
 	char *server, char *user, char *password)
 {
-	if (strlen(server) + strlen(user) + strlen(password) + strlen(directory) + strlen(fileName) + 7 >= SFTP_MAX_REMOTE_ADDR) {
+	int lenDirectory = strlen(directory);
+	if (strlen(server) + strlen(user) + strlen(password) + lenDirectory + strlen(fileName) + 7 >= SFTP_MAX_REMOTE_ADDR) {
 		return -1;
 	}
 	strcpy(_remoteAddr, "sftp://");
@@ -69,7 +70,9 @@ static int createRemotePath(char *fileName, char *directory,
 	strcat(_remoteAddr, "@");
 	strcat(_remoteAddr, server);
 	strcat(_remoteAddr, directory);
-	strcat(_remoteAddr, "/");
+	if( directory[lenDirectory -1] != '/') {
+		strcat(_remoteAddr, "/");
+	}
 	strcat(_remoteAddr, fileName);
 	return 0;
 }
