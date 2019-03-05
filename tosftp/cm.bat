@@ -1,0 +1,1 @@
+c:\MinGW\bin\gcc tosftp.c -o tosftp-mingw.exe -I"..\vcpkg\packages\libssh_x86-windows\include" -I"..\vcpkg\packages\zlib_x86-windows\include" -I"..\vcpkg\packages\openssl-windows_x86-windows\include" -L"..\vcpkg\packages\libssh_x86-windows\lib" -L"..\vcpkg\packages\zlib_x86-windows\lib" -L"..\vcpkg\packages\openssl-windows_x86-windows\lib" -lssh -lzlib -llibeay32 -lssleay32

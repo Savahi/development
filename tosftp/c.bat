@@ -1,0 +1,1 @@
+cl /MT ssh.lib zlib.lib libeay32.lib ssleay32.lib tosftp.cpp /D"LIBSSH_STATIC 1" /I "..\vcpkg\packages\libssh_x86-windows\include" /link /LIBPATH:"..\vcpkg\packages\libssh_x86-windows\lib" /LIBPATH:"..\vcpkg\packages\zlib_x86-windows\lib" /LIBPATH:"..\vcpkg\packages\openssl-windows_x86-windows\lib"
